@@ -1,0 +1,1275 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <!-- Primary Meta Tags -->
+  <title>Janudaya Kavinda Wijethunga — Software Engineer &amp; Dual-Stack Developer</title>
+  <meta name="title" content="Janudaya Kavinda Wijethunga — Software Engineer &amp; Dual-Stack Developer">
+  <meta name="description" content="Professional portfolio of Janudaya Kavinda Wijethunga, BSc (Hons) Software Engineering Graduate from Birmingham City University, UK. Full-stack web, mobile, IoT, and video editor.">
+  <meta name="author" content="Janudaya Kavinda Wijethunga">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="./assets/images/favicon.svg">
+
+  <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+  <!-- ========================================================================
+       1. Header & Navigation Bar
+       ======================================================================== -->
+  <header class="navbar" role="banner">
+    <div class="container nav-container">
+      <!-- Brand Logo -->
+      <a href="#hero" class="logo" aria-label="Janudaya Portfolio Home">
+        <div class="logo-badge">JK</div>
+        <div class="logo-text">Janudaya<span>.dev</span></div>
+      </a>
+
+      <!-- Navigation Links -->
+      <nav class="nav-menu" role="navigation" aria-label="Main Navigation">
+        <a href="#hero" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#media" class="nav-link">Showreel</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Nav Actions (Theme Toggle & Contact CTA) -->
+      <div class="nav-actions">
+        <!-- Dark/Light Theme Switcher -->
+        <button id="theme-toggle-btn" class="theme-toggle-btn" aria-label="Toggle Color Theme" title="Toggle Theme">
+          <!-- Moon Icon (Dark Mode active) -->
+          <svg class="theme-icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+          <!-- Sun Icon (Light Mode active) -->
+          <svg class="theme-icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+        </button>
+
+        <a href="#contact" class="btn btn-primary btn-sm">Let's Connect</a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button class="mobile-toggle" aria-label="Open Navigation Menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+
+    <!-- ========================================================================
+         2. Hero Section
+         ======================================================================== -->
+    <section id="hero" class="hero">
+      <div class="hero-glow-1"></div>
+      <div class="hero-glow-2"></div>
+
+      <div class="container">
+        <div class="hero-grid">
+          <!-- Hero Copy & Text -->
+          <div class="hero-content">
+            <div class="hero-badge-status">
+              <span class="status-dot"></span>
+              <span>Available for Software Engineering Roles &amp; Projects</span>
+            </div>
+
+            <h1 class="hero-title">
+              Hi, I'm <span class="gradient-text">Janudaya</span><br>
+              <span class="hero-typewriter-wrapper">
+                <span id="typewriter-text">Software Engineer</span>
+                <span class="typewriter-cursor">|</span>
+              </span>
+            </h1>
+
+            <p class="hero-description">
+              BSc (Hons) Software Engineering Graduate from Birmingham City University, UK.
+              Specialized in engineering robust full-stack web architectures (React &amp; Laravel),
+              cross-platform mobile apps, IoT microcontrollers, and cinematic digital video production.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary">
+                <span>View Portfolio Projects</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+              <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+
+            <!-- Social Links -->
+            <div class="hero-socials">
+              <a href="https://github.com/Janudaya" target="_blank" rel="noopener noreferrer" class="social-pill" title="GitHub Profile" aria-label="GitHub">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+              </a>
+              <a href="https://linkedin.com/in/janudaya-kavinda-wijethunga-3680b33a5" target="_blank" rel="noopener noreferrer" class="social-pill" title="LinkedIn Profile" aria-label="LinkedIn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                  <rect x="2" y="9" width="4" height="12"></rect>
+                  <circle cx="4" cy="4" r="2"></circle>
+                </svg>
+              </a>
+              <a href="mailto:Janudayakavinda@gmail.com" class="social-pill" title="Send Email" aria-label="Email">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </a>
+              <a href="tel:0717445924" class="social-pill" title="Call Direct" aria-label="Phone">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Hero Visual / Avatar Card with Floating Badges -->
+          <div class="hero-visual">
+            <div class="avatar-wrapper">
+              <div class="avatar-backdrop"></div>
+              <div class="avatar-image-card">
+                <img src="./assets/images/profile.jpg" alt="Janudaya Kavinda Wijethunga" class="avatar-image" width="380" height="480">
+              </div>
+
+              <!-- Floating Badges -->
+              <div class="floating-badge badge-se">
+                <div class="badge-icon">⚡</div>
+                <div>
+                  <strong>Software Engineer</strong>
+                  <span style="display:block; font-size: 0.725rem; color: var(--text-muted);">BCU, UK Graduate</span>
+                </div>
+              </div>
+
+              <div class="floating-badge badge-media">
+                <div class="badge-icon">🎬</div>
+                <div>
+                  <strong>Video Editor</strong>
+                  <span style="display:block; font-size: 0.725rem; color: var(--text-muted);">VideoMate.io Pro</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Animated Stats Counter Bar -->
+        <div class="hero-stats">
+          <div class="stat-item">
+            <span class="stat-number" data-target="10" data-suffix="+">0</span>
+            <span class="stat-label">Production &amp; Research Projects</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number" data-target="100" data-suffix="%">0</span>
+            <span class="stat-label">Code Quality &amp; Clean Architecture</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number" data-target="4" data-suffix=" Domains">0</span>
+            <span class="stat-label">Web, Mobile, IoT, Video Editing</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number" data-target="2" data-suffix="+ Years">0</span>
+            <span class="stat-label">Hands-on Engineering Practice</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         3. About Section
+         ======================================================================== -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">About Me</span>
+          <h2 class="section-title">Bridging Technical Logic With Visual Artistry</h2>
+          <p class="section-subtitle">
+            An enthusiastic Software Engineering graduate with proven hands-on experience delivering practical digital solutions ranging from real-world healthcare platforms to embedded robotics.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Profile Quick Facts Card -->
+          <div class="about-card">
+            <div class="about-card-profile-header">
+              <img src="./assets/images/profile.jpg" alt="Janudaya Kavinda" class="about-profile-thumb">
+              <div>
+                <h3 class="about-card-title">Janudaya Kavinda Wijethunga</h3>
+                <span class="about-card-role">BSc (Hons) Software Engineering</span>
+              </div>
+            </div>
+
+            <div class="info-list">
+              <div class="info-item">
+                <div class="info-icon">🎓</div>
+                <div>
+                  <span class="info-label">Degree &amp; Alma Mater</span>
+                  <span class="info-value">Birmingham City University, UK (2022 - 2026)</span>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-icon">📍</div>
+                <div>
+                  <span class="info-label">Current Location</span>
+                  <span class="info-value">Horana, Western Province, Sri Lanka</span>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-icon">✉️</div>
+                <div>
+                  <span class="info-label">Direct Email</span>
+                  <span class="info-value">Janudayakavinda@gmail.com</span>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-icon">📞</div>
+                <div>
+                  <span class="info-label">Phone &amp; WhatsApp</span>
+                  <span class="info-value">+94 71 744 5924</span>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-icon">💼</div>
+                <div>
+                  <span class="info-label">Specialization Focus</span>
+                  <span class="info-value">React, Laravel, Java, Mobile Apps, Video Editing</span>
+                </div>
+              </div>
+            </div>
+
+            <a href="#contact" class="btn btn-primary" style="width: 100%;">
+              <span>Connect for Work</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+          </div>
+
+          <!-- Narrative & Highlights -->
+          <div class="about-narrative">
+            <p class="about-p">
+              I am a graduate Software Engineer driven by the challenge of transforming complex algorithmic requirements into intuitive, elegant digital products. With formal training in UK software architecture standards and a diverse background spanning both software engineering and professional video production, I bring a unique dual-brain approach: rigorous programmatic thinking paired with strong visual empathy.
+            </p>
+            <p class="about-p">
+              My engineering stack covers <strong>React.js</strong> and <strong>Laravel</strong> for full-stack client web systems, <strong>Java &amp; Android Studio</strong> for enterprise applications, <strong>React Native</strong> for cross-platform mobile apps, and <strong>Arduino C++</strong> for real-time sensor IoT systems. Whether building clinical management dashboards or editing commercial videos in Adobe Premiere Pro, I maintain a relentless dedication to performance and precision.
+            </p>
+
+            <div class="about-highlights">
+              <div class="highlight-box">
+                <div class="highlight-icon">💻</div>
+                <h4 class="highlight-title">Full-Stack Architect</h4>
+                <p class="highlight-desc">Architecting normalized relational schemas, clean REST APIs, and responsive frontends.</p>
+              </div>
+
+              <div class="highlight-box">
+                <div class="highlight-icon">📱</div>
+                <h4 class="highlight-title">Mobile &amp; IoT Prototyping</h4>
+                <p class="highlight-desc">Designing native mobile applications with sensor integrations and autonomous C++ robotics.</p>
+              </div>
+
+              <div class="highlight-box">
+                <div class="highlight-icon">🎥</div>
+                <h4 class="highlight-title">Creative Media Production</h4>
+                <p class="highlight-desc">Commercial video editing at VideoMate.io utilizing Adobe Premiere Pro and motion graphics.</p>
+              </div>
+
+              <div class="highlight-box">
+                <div class="highlight-icon">🤝</div>
+                <h4 class="highlight-title">Client Relations &amp; Sales</h4>
+                <p class="highlight-desc">Proven stakeholder communication and technical consulting background at Lion Car Sale.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         4. Skills & Competencies Section
+         ======================================================================== -->
+    <section id="skills" class="section" style="background: var(--bg-secondary);">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Technical Arsenal</span>
+          <h2 class="section-title">Core Skills &amp; Technologies</h2>
+          <p class="section-subtitle">
+            A comprehensive matrix of programming languages, modern frameworks, database engines, and creative tools honed through practical deployment.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Skill Card 1: Frontend & UI/UX -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon icon-frontend">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <div>
+                <h3 class="category-title">Frontend &amp; UI</h3>
+                <span class="category-count">8 Core Technologies</span>
+              </div>
+            </div>
+
+            <div class="skill-items-list">
+              <div class="skill-item">
+                <div class="skill-item-header">
+                  <span class="skill-name">HTML5 &amp; Semantic Web</span>
+                  <span class="skill-percentage">95%</span>
+                </div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-fill" data-percentage="95%"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-item-header">
+                  <span class="skill-name">CSS3, Flexbox &amp; Grid</span>
+                  <span class="skill-percentage">92%</span>
+                </div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-fill" data-percentage="92%"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-item-header">
+                  <span class="skill-name">JavaScript (ES6+) &amp; DOM</span>
+                  <span class="skill-percentage">90%</span>
+                </div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-fill" data-percentage="90%"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-item-header">
+                  <span class="skill-name">React.js &amp; State Mgmt</span>
+                  <span class="skill-percentage">88%</span>
+                </div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-fill" data-percentage="88%"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-tags">
+              <span class="skill-tag">Tailwind CSS</span>
+              <span class="skill-tag">Bootstrap 5</span>
+              <span class="skill-tag">Responsive UI</span>
+              <span class="skill-tag">Component Architecture</span>
+            </div>
+          </div>
+
+          <!-- Skill Card 2: Backend & Databases -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon icon-backend">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                  <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                  <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                </svg>
+              </div>
+              <div>
+                <h3 class="category-title">Backend &amp; DB</h3>
+                <span class="category-count">7 Core Systems</span>
+              </div>
+            </div>
+
+            <div class="skill-items-list">
+              <div class="skill-item">
+                <div class="skill-item-header">
+                  <span class="skill-name">Java SE &amp; Java EE</span>
+                  <span class="skill-percentage">90%</span>
+                </div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-fill" data-percentage="90%"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-item-header">
+                  <span class="skill-name">PHP &amp; Laravel REST API</span>
+                  <span class="skill-percentage">88%</span>
+                </div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-fill" data-percentage="88%"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-item-header">
+                  <span class="skill-name">MySQL &amp; Relational Schema</span>
+                  <span class="skill-percentage">87%</span>
+                </div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-fill" data-percentage="87%"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-item-header">
+                  <span class="skill-name">Firebase Realtime &amp; Auth</span>
+                  <span class="skill-percentage">85%</span>
+                </div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-fill" data-percentage="85%"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-tags">
+              <span class="skill-tag">RESTful APIs</span>
+              <span class="skill-tag">OOP Architecture</span>
+              <span class="skill-tag">SQLite</span>
+              <span class="skill-tag">Role Isolation</span>
+            </div>
+          </div>
+
+          <!-- Skill Card 3: Mobile & Embedded IoT -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon icon-mobile">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
+                  <line x1="12" y1="18" x2="12.01" y2="18"></line>
+                </svg>
+              </div>
+              <div>
+                <h3 class="category-title">Mobile &amp; IoT</h3>
+                <span class="category-count">6 Technologies</span>
+              </div>
+            </div>
+
+            <div class="skill-items-list">
+              <div class="skill-item">
+                <div class="skill-item-header">
+                  <span class="skill-name">React Native (Cross-Platform)</span>
+                  <span class="skill-percentage">86%</span>
+                </div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-fill" data-percentage="86%"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-item-header">
+                  <span class="skill-name">Android Studio (Java)</span>
+                  <span class="skill-percentage">85%</span>
+                </div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-fill" data-percentage="85%"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-item-header">
+                  <span class="skill-name">Arduino &amp; Embedded C++</span>
+                  <span class="skill-percentage">88%</span>
+                </div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-fill" data-percentage="88%"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-item-header">
+                  <span class="skill-name">Sensors &amp; Google Maps API</span>
+                  <span class="skill-percentage">84%</span>
+                </div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-fill" data-percentage="84%"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-tags">
+              <span class="skill-tag">Ultrasonic Sonar</span>
+              <span class="skill-tag">Motor Drivers</span>
+              <span class="skill-tag">Hardware Telemetry</span>
+              <span class="skill-tag">Mobile Sockets</span>
+            </div>
+          </div>
+
+          <!-- Skill Card 4: Tools & Creative Suite -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon icon-tools">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+                </svg>
+              </div>
+              <div>
+                <h3 class="category-title">Creative &amp; Tools</h3>
+                <span class="category-count">8 Tools &amp; Engines</span>
+              </div>
+            </div>
+
+            <div class="skill-items-list">
+              <div class="skill-item">
+                <div class="skill-item-header">
+                  <span class="skill-name">Adobe Premiere Pro</span>
+                  <span class="skill-percentage">95%</span>
+                </div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-fill" data-percentage="95%"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-item-header">
+                  <span class="skill-name">Git &amp; GitHub Versioning</span>
+                  <span class="skill-percentage">90%</span>
+                </div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-fill" data-percentage="90%"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-item-header">
+                  <span class="skill-name">Unity Engine (C# 2D/3D)</span>
+                  <span class="skill-percentage">82%</span>
+                </div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-fill" data-percentage="82%"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-item-header">
+                  <span class="skill-name">VS Code, Eclipse, Android Studio</span>
+                  <span class="skill-percentage">92%</span>
+                </div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-fill" data-percentage="92%"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-tags">
+              <span class="skill-tag">Video Editing</span>
+              <span class="skill-tag">Audio Mastering</span>
+              <span class="skill-tag">AI Prompt Engineering</span>
+              <span class="skill-tag">Agile Lifecycle</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         5. Featured Projects Section (With Filter & Modal Lightbox)
+         ======================================================================== -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Case Studies</span>
+          <h2 class="section-title">Featured Engineering Work</h2>
+          <p class="section-subtitle">
+            Explore verified software engineering and prototyping projects spanning client web portals, cross-platform mobile apps, autonomous robotics, and games.
+          </p>
+        </div>
+
+        <!-- Filter Tabs -->
+        <div class="project-filters">
+          <button class="filter-btn active" data-filter="all">All Projects (7)</button>
+          <button class="filter-btn" data-filter="web">Web &amp; Full-Stack</button>
+          <button class="filter-btn" data-filter="mobile">Mobile &amp; IoT</button>
+          <button class="filter-btn" data-filter="desktop">Desktop &amp; Games</button>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="projects-grid">
+
+          <!-- Project 1: Patient Management System -->
+          <article class="project-card" data-category="web">
+            <div class="project-media">
+              <img src="./assets/images/project-1.svg" alt="Patient Management System Preview" class="project-img" width="600" height="360" loading="lazy">
+              <div class="project-overlay">
+                <button class="overlay-btn" data-project-id="patient-management" title="View Full Case Study" aria-label="View Project 1 Details">
+                  🔍
+                </button>
+                <a href="https://github.com/Janudaya" target="_blank" rel="noopener noreferrer" class="overlay-btn" title="GitHub Code" aria-label="GitHub Repository">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <div class="project-content">
+              <div class="project-badge-bar">
+                <span class="project-category-tag">Full-Stack Web</span>
+                <span class="project-badge-pill">Real Client Project</span>
+              </div>
+              <h3 class="project-title">Patient Management System</h3>
+              <p class="project-description">
+                A role-isolated clinical web application currently being engineered for a private healthcare clinic to automate patient intake registries, clinical notes, and appointment scheduling.
+              </p>
+              <div class="project-tech-stack">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">Laravel</span>
+                <span class="tech-tag">MySQL</span>
+                <span class="tech-tag">REST API</span>
+              </div>
+              <div class="project-actions">
+                <button class="btn btn-secondary btn-sm" data-project-id="patient-management" style="flex: 1;">
+                  Case Study
+                </button>
+                <a href="https://github.com/Janudaya" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm" style="flex: 1;">
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: React Native Chat App -->
+          <article class="project-card" data-category="mobile">
+            <div class="project-media">
+              <img src="./assets/images/project-2.svg" alt="React Native Chat App Preview" class="project-img" width="600" height="360" loading="lazy">
+              <div class="project-overlay">
+                <button class="overlay-btn" data-project-id="react-native-chat" title="View Full Case Study" aria-label="View Project 2 Details">
+                  🔍
+                </button>
+                <a href="https://github.com/Janudaya" target="_blank" rel="noopener noreferrer" class="overlay-btn" title="GitHub Code" aria-label="GitHub Repository">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <div class="project-content">
+              <div class="project-badge-bar">
+                <span class="project-category-tag">Mobile App</span>
+                <span class="project-badge-pill">Open Source</span>
+              </div>
+              <h3 class="project-title">React Native Realtime Chat App</h3>
+              <p class="project-description">
+                Cross-platform mobile messaging application engineered with Firebase Realtime Database backend, optimistic caching, presence detection, and sub-50ms message delivery.
+              </p>
+              <div class="project-tech-stack">
+                <span class="tech-tag">React Native</span>
+                <span class="tech-tag">Firebase</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Sockets</span>
+              </div>
+              <div class="project-actions">
+                <button class="btn btn-secondary btn-sm" data-project-id="react-native-chat" style="flex: 1;">
+                  Case Study
+                </button>
+                <a href="https://github.com/Janudaya" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm" style="flex: 1;">
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: Obstacle-Avoiding Robot Car -->
+          <article class="project-card" data-category="mobile">
+            <div class="project-media">
+              <img src="./assets/images/project-3.svg" alt="Robot Car Preview" class="project-img" width="600" height="360" loading="lazy">
+              <div class="project-overlay">
+                <button class="overlay-btn" data-project-id="robot-car" title="View Full Case Study" aria-label="View Project 3 Details">
+                  🔍
+                </button>
+                <a href="https://github.com/Janudaya" target="_blank" rel="noopener noreferrer" class="overlay-btn" title="GitHub Code" aria-label="GitHub Repository">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <div class="project-content">
+              <div class="project-badge-bar">
+                <span class="project-category-tag">Embedded IoT</span>
+                <span class="project-badge-pill">Autonomous C++</span>
+              </div>
+              <h3 class="project-title">Obstacle-Avoiding Robot Car</h3>
+              <p class="project-description">
+                Autonomous robotic vehicular platform using Arduino microcontroller, HC-SR04 ultrasonic sensor array, and low-level C++ firmware logic for spatial collision avoidance.
+              </p>
+              <div class="project-tech-stack">
+                <span class="tech-tag">Arduino</span>
+                <span class="tech-tag">C++ Core</span>
+                <span class="tech-tag">Sonar Sensors</span>
+                <span class="tech-tag">PWM Control</span>
+              </div>
+              <div class="project-actions">
+                <button class="btn btn-secondary btn-sm" data-project-id="robot-car" style="flex: 1;">
+                  Case Study
+                </button>
+                <a href="https://github.com/Janudaya" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm" style="flex: 1;">
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4: PetCare Android Application -->
+          <article class="project-card" data-category="mobile">
+            <div class="project-media">
+              <img src="./assets/images/project-4.svg" alt="PetCare App Preview" class="project-img" width="600" height="360" loading="lazy">
+              <div class="project-overlay">
+                <button class="overlay-btn" data-project-id="petcare-app" title="View Full Case Study" aria-label="View Project 4 Details">
+                  🔍
+                </button>
+                <a href="https://github.com/Janudaya" target="_blank" rel="noopener noreferrer" class="overlay-btn" title="GitHub Code" aria-label="GitHub Repository">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <div class="project-content">
+              <div class="project-badge-bar">
+                <span class="project-category-tag">Android Native</span>
+                <span class="project-badge-pill">Google Maps API</span>
+              </div>
+              <h3 class="project-title">PetCare Android Application</h3>
+              <p class="project-description">
+                Native Android app integrating Firebase and Google Maps SDK, utilizing device hardware sensors (step counter) to enhance health tracking and veterinary discovery for pet owners.
+              </p>
+              <div class="project-tech-stack">
+                <span class="tech-tag">Java</span>
+                <span class="tech-tag">Android Studio</span>
+                <span class="tech-tag">Google Maps</span>
+                <span class="tech-tag">Firebase</span>
+              </div>
+              <div class="project-actions">
+                <button class="btn btn-secondary btn-sm" data-project-id="petcare-app" style="flex: 1;">
+                  Case Study
+                </button>
+                <a href="https://github.com/Janudaya" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm" style="flex: 1;">
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 5: Student Management System -->
+          <article class="project-card" data-category="desktop">
+            <div class="project-media">
+              <img src="./assets/images/project-5.svg" alt="Student Management System Preview" class="project-img" width="600" height="360" loading="lazy">
+              <div class="project-overlay">
+                <button class="overlay-btn" data-project-id="student-management" title="View Full Case Study" aria-label="View Project 5 Details">
+                  🔍
+                </button>
+                <a href="https://github.com/Janudaya" target="_blank" rel="noopener noreferrer" class="overlay-btn" title="GitHub Code" aria-label="GitHub Repository">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <div class="project-content">
+              <div class="project-badge-bar">
+                <span class="project-category-tag">Desktop Enterprise</span>
+                <span class="project-badge-pill">Java FX / Swing</span>
+              </div>
+              <h3 class="project-title">Student Management System</h3>
+              <p class="project-description">
+                Desktop academic information platform featuring secure credential authentication, automated GPA calculations, report generation, and high-concurrency MySQL integration.
+              </p>
+              <div class="project-tech-stack">
+                <span class="tech-tag">Java SE</span>
+                <span class="tech-tag">JavaFX</span>
+                <span class="tech-tag">MySQL</span>
+                <span class="tech-tag">JDBC</span>
+              </div>
+              <div class="project-actions">
+                <button class="btn btn-secondary btn-sm" data-project-id="student-management" style="flex: 1;">
+                  Case Study
+                </button>
+                <a href="https://github.com/Janudaya" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm" style="flex: 1;">
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 6: E-Commerce Web Platforms -->
+          <article class="project-card" data-category="web">
+            <div class="project-media">
+              <img src="./assets/images/project-6.svg" alt="E-Commerce Platforms Preview" class="project-img" width="600" height="360" loading="lazy">
+              <div class="project-overlay">
+                <button class="overlay-btn" data-project-id="ecommerce-web" title="View Full Case Study" aria-label="View Project 6 Details">
+                  🔍
+                </button>
+                <a href="https://github.com/Janudaya" target="_blank" rel="noopener noreferrer" class="overlay-btn" title="GitHub Code" aria-label="GitHub Repository">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <div class="project-content">
+              <div class="project-badge-bar">
+                <span class="project-category-tag">Web Platforms</span>
+                <span class="project-badge-pill">Dual Architecture</span>
+              </div>
+              <h3 class="project-title">E-Commerce Web Platforms</h3>
+              <p class="project-description">
+                Built two distinct complete e-commerce systems (PHP MVC and Java EE) with real-time product catalogs, cart state persistence, inventory tracking, and payment flows.
+              </p>
+              <div class="project-tech-stack">
+                <span class="tech-tag">PHP</span>
+                <span class="tech-tag">Java EE</span>
+                <span class="tech-tag">MySQL</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+              <div class="project-actions">
+                <button class="btn btn-secondary btn-sm" data-project-id="ecommerce-web" style="flex: 1;">
+                  Case Study
+                </button>
+                <a href="https://github.com/Janudaya" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm" style="flex: 1;">
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 7: Interactive 2D/3D Game -->
+          <article class="project-card" data-category="desktop">
+            <div class="project-media">
+              <img src="./assets/images/project-7.svg" alt="Unity 3D Game Preview" class="project-img" width="600" height="360" loading="lazy">
+              <div class="project-overlay">
+                <button class="overlay-btn" data-project-id="unity-game" title="View Full Case Study" aria-label="View Project 7 Details">
+                  🔍
+                </button>
+                <a href="https://github.com/Janudaya" target="_blank" rel="noopener noreferrer" class="overlay-btn" title="GitHub Code" aria-label="GitHub Repository">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <div class="project-content">
+              <div class="project-badge-bar">
+                <span class="project-category-tag">Game Development</span>
+                <span class="project-badge-pill">Unity &amp; C#</span>
+              </div>
+              <h3 class="project-title">Interactive 2D/3D Game</h3>
+              <p class="project-description">
+                Interactive physics-based action game developed in Unity 3D Engine featuring custom C# player mechanics, responsive particle collisions, dynamic lighting, and audio triggers.
+              </p>
+              <div class="project-tech-stack">
+                <span class="tech-tag">Unity</span>
+                <span class="tech-tag">C#</span>
+                <span class="tech-tag">Physics</span>
+                <span class="tech-tag">Particle FX</span>
+              </div>
+              <div class="project-actions">
+                <button class="btn btn-secondary btn-sm" data-project-id="unity-game" style="flex: 1;">
+                  Case Study
+                </button>
+                <a href="https://github.com/Janudaya" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm" style="flex: 1;">
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         6. Experience & Education Timeline Section
+         ======================================================================== -->
+    <section id="experience" class="section" style="background: var(--bg-secondary);">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Career Journey</span>
+          <h2 class="section-title">Education &amp; Professional Experience</h2>
+          <p class="section-subtitle">
+            A chronological timeline of academic achievements, technical responsibilities, and creative industry experience.
+          </p>
+        </div>
+
+        <div class="timeline-container">
+          <div class="timeline-line"></div>
+
+          <!-- Timeline Item 1: Degree -->
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content-card">
+              <span class="timeline-period-badge">2022 – 2026</span>
+              <h3 class="timeline-role">BSc (Hons) Software Engineering</h3>
+              <div class="timeline-company">Birmingham City University, UK</div>
+              <ul class="timeline-bullets">
+                <li class="timeline-bullet-item">
+                  Completed rigorous software engineering degree syllabus focused on Object-Oriented Programming (Java), Data Structures, Software Architecture, and Database Systems.
+                </li>
+                <li class="timeline-bullet-item">
+                  Specialized in full-stack web technologies, mobile application engineering (React Native, Android Studio), and embedded Internet of Things (IoT) prototyping.
+                </li>
+                <li class="timeline-bullet-item">
+                  Engineered end-to-end coursework platforms with relational database normalizations, automated unit tests, and documentation.
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Timeline Item 2: Video Editor -->
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content-card">
+              <span class="timeline-period-badge">February 2026 – July 2026</span>
+              <h3 class="timeline-role">Video Editor &amp; Media Creative</h3>
+              <div class="timeline-company">VideoMate.io</div>
+              <ul class="timeline-bullets">
+                <li class="timeline-bullet-item">
+                  Edited and produced high-retention video content using Adobe Premiere Pro and creative motion tools for brand clients.
+                </li>
+                <li class="timeline-bullet-item">
+                  Collaborated with cross-functional creative teams to deliver engaging visual storytelling, sound design, and title animations aligned with strict deadlines.
+                </li>
+                <li class="timeline-bullet-item">
+                  Applied systematic digital asset management and render optimizations for multi-platform video delivery.
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Timeline Item 3: Car Salesman -->
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content-card">
+              <span class="timeline-period-badge">January 2025 – February 2026</span>
+              <h3 class="timeline-role">Customer Consultant &amp; Sales Representative</h3>
+              <div class="timeline-company">Lion Car Sale</div>
+              <ul class="timeline-bullets">
+                <li class="timeline-bullet-item">
+                  Assisted clients with technical vehicle inquiries, mechanical feature breakdowns, test-drives, and consultative comparisons.
+                </li>
+                <li class="timeline-bullet-item">
+                  Cultivated strong interpersonal relationships and negotiation strategies that consistently drove successful vehicle transaction closures.
+                </li>
+                <li class="timeline-bullet-item">
+                  Streamlined customer inquiry follow-ups and service communications.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         7. Creative Video & Showreel Section
+         ======================================================================== -->
+    <section id="media" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Media Portfolio</span>
+          <h2 class="section-title">Creative Showreel &amp; Video Production</h2>
+          <p class="section-subtitle">
+            Experience my visual editing craft, pacing, dynamic motion transitions, and creative audio mastering.
+          </p>
+        </div>
+
+        <div class="video-showcase-grid">
+          <!-- Video Player Card -->
+          <div class="video-player-wrapper">
+            <video class="video-player" controls preload="metadata" poster="./assets/images/project-1.svg">
+              <source src="./assets/me.mp4" type="video/mp4">
+              Your browser does not support HTML5 video playback.
+            </video>
+          </div>
+
+          <!-- Video Details Card -->
+          <div class="video-details-card">
+            <h3 class="video-details-title">Janudaya Kavinda Wijethunga // Personal Showreel</h3>
+            <p class="video-details-desc" style="color: var(--text-secondary); line-height: 1.7;">
+              Combining software precision with visual dynamism. This showreel illustrates narrative pacing, commercial edit workflows, color grading, sound synchronization, and modern video editing techniques in Adobe Premiere Pro.
+            </p>
+
+            <div class="video-meta-tags">
+              <span class="video-pill">Adobe Premiere Pro</span>
+              <span class="video-pill">1080p Full HD</span>
+              <span class="video-pill">Stereo Mastered</span>
+              <span class="video-pill">Color Graded</span>
+            </div>
+
+            <div class="video-features-list">
+              <div class="video-feature">
+                <span class="video-feature-check">✓</span>
+                <span>Story-driven pacing and motion kinetic typography</span>
+              </div>
+              <div class="video-feature">
+                <span class="video-feature-check">✓</span>
+                <span>Seamless beat-matched audio transitions and sound FX</span>
+              </div>
+              <div class="video-feature">
+                <span class="video-feature-check">✓</span>
+                <span>Commercial editing experience at VideoMate.io</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         8. Interactive Contact Section (With Client-Side Form)
+         ======================================================================== -->
+    <section id="contact" class="section" style="background: var(--bg-secondary);">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Get In Touch</span>
+          <h2 class="section-title">Let's Build Something Exceptional</h2>
+          <p class="section-subtitle">
+            Have a project in mind, an engineering role opening, or want to discuss technical collaboration? Send a message directly or connect via social channels.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Information Column -->
+          <div class="contact-info-column">
+            <!-- Email Card -->
+            <a href="mailto:Janudayakavinda@gmail.com" class="contact-card">
+              <div class="contact-icon-box">✉️</div>
+              <div>
+                <span class="contact-card-label">Email Address</span>
+                <span class="contact-card-value">Janudayakavinda@gmail.com</span>
+              </div>
+            </a>
+
+            <!-- Phone Card -->
+            <a href="tel:0717445924" class="contact-card">
+              <div class="contact-icon-box">📞</div>
+              <div>
+                <span class="contact-card-label">Direct Phone</span>
+                <span class="contact-card-value">+94 71 744 5924</span>
+              </div>
+            </a>
+
+            <!-- Location Card -->
+            <div class="contact-card">
+              <div class="contact-icon-box">📍</div>
+              <div>
+                <span class="contact-card-label">Location</span>
+                <span class="contact-card-value">91, Pansalheena, Meewanapalana, Horana, Sri Lanka</span>
+              </div>
+            </div>
+
+            <!-- LinkedIn Card -->
+            <a href="https://linkedin.com/in/janudaya-kavinda-wijethunga-3680b33a5" target="_blank" rel="noopener noreferrer" class="contact-card">
+              <div class="contact-icon-box">🔗</div>
+              <div>
+                <span class="contact-card-label">Professional Network</span>
+                <span class="contact-card-value">linkedin.com/in/janudaya-kavinda</span>
+              </div>
+            </a>
+
+            <!-- GitHub Card -->
+            <a href="https://github.com/Janudaya" target="_blank" rel="noopener noreferrer" class="contact-card">
+              <div class="contact-icon-box">🐙</div>
+              <div>
+                <span class="contact-card-label">Open Source Repositories</span>
+                <span class="contact-card-value">github.com/Janudaya</span>
+              </div>
+            </a>
+          </div>
+
+          <!-- Interactive Contact Form -->
+          <div class="contact-form-card">
+            <h3 class="form-title">Send a Direct Message</h3>
+            
+            <form id="contact-form" class="contact-form" novalidate>
+              <div class="form-group">
+                <label for="contact-name" class="form-label">Full Name *</label>
+                <input type="text" id="contact-name" class="form-control" placeholder="e.g. Alex Morgan" required>
+                <span class="form-error-msg">Please enter your name.</span>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-email" class="form-label">Email Address *</label>
+                <input type="email" id="contact-email" class="form-control" placeholder="e.g. alex@company.com" required>
+                <span class="form-error-msg">Please provide a valid email.</span>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-subject" class="form-label">Subject *</label>
+                <input type="text" id="contact-subject" class="form-control" placeholder="Project Inquiry / Job Opportunity" required>
+                <span class="form-error-msg">Please enter a subject.</span>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-message" class="form-label">Message *</label>
+                <textarea id="contact-message" class="form-control" placeholder="Write your message or project requirements here..." required></textarea>
+                <span class="form-error-msg">Message must be at least 10 characters.</span>
+              </div>
+
+              <button type="submit" id="form-submit-btn" class="btn btn-primary" style="width: 100%;">
+                <span>Send Message</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========================================================================
+       9. Footer
+       ======================================================================== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="logo">
+            <div class="logo-badge">JK</div>
+            <div class="logo-text">Janudaya<span>.dev</span></div>
+          </div>
+          <p class="footer-bio">
+            BSc (Hons) Software Engineering Graduate from Birmingham City University, UK. Dual-stack developer fusing programmatic logic with creative storytelling.
+          </p>
+        </div>
+
+        <nav class="footer-nav" aria-label="Footer Navigation">
+          <a href="#hero" class="nav-link">Home</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#skills" class="nav-link">Skills</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#experience" class="nav-link">Experience</a>
+          <a href="#media" class="nav-link">Showreel</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; <span id="current-year">2026</span> Janudaya Kavinda Wijethunga. Built with HTML5, CSS3 &amp; JavaScript.
+        </div>
+        <div>
+          Designed for high performance, accessibility, and modern responsive viewports.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================================================================
+       10. Project Case Study Lightbox Modal Dialog
+       ======================================================================== -->
+  <div id="project-modal" class="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-dialog">
+      <button id="modal-close-btn" class="modal-close-btn" aria-label="Close Project Modal">&times;</button>
+      
+      <div class="modal-header-image">
+        <img id="modal-img" src="./assets/images/project-1.svg" alt="Project Case Study Preview">
+      </div>
+
+      <div class="modal-body">
+        <span id="modal-badge" class="modal-project-badge">Category</span>
+        <h3 id="modal-title" class="modal-title">Project Title</h3>
+
+        <div class="modal-meta-grid">
+          <div class="modal-meta-item">
+            <strong>Platform / Type</strong>
+            <span id="modal-type">Web Application</span>
+          </div>
+          <div class="modal-meta-item">
+            <strong>Client / Sponsor</strong>
+            <span id="modal-client">Private Client</span>
+          </div>
+          <div class="modal-meta-item">
+            <strong>Role</strong>
+            <span id="modal-role">Lead Full-Stack Developer</span>
+          </div>
+          <div class="modal-meta-item">
+            <strong>Timeline</strong>
+            <span id="modal-timeline">Completed</span>
+          </div>
+        </div>
+
+        <h4 class="modal-section-title">Project Overview</h4>
+        <p id="modal-summary" class="modal-text">Summary text...</p>
+
+        <h4 class="modal-section-title">Technical Architecture</h4>
+        <p id="modal-architecture" class="modal-text">Architecture description...</p>
+
+        <h4 class="modal-section-title">Key Engineering Features</h4>
+        <ul id="modal-features" class="modal-features-list">
+          <!-- Features injected via JavaScript -->
+        </ul>
+
+        <h4 class="modal-section-title">Technology Stack</h4>
+        <div id="modal-tech" class="project-tech-stack">
+          <!-- Tech badges injected via JavaScript -->
+        </div>
+
+        <div class="modal-footer">
+          <a id="modal-github-link" href="https://github.com/Janudaya" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+            <span>Explore Source Repository on GitHub</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+              <polyline points="15 3 21 3 21 9"></polyline>
+              <line x1="10" y1="14" x2="21" y2="3"></line>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container for Feedback -->
+  <div id="toast-container" class="toast-container" aria-live="polite"></div>
+
+  <!-- Floating Back To Top Button -->
+  <button id="back-to-top" class="back-to-top" aria-label="Back to top of page" title="Scroll to top">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <!-- Core JavaScript -->
+  <script src="./js/main.js"></script>
+</body>
+</html>

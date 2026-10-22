@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" fill="none">
+  <rect width="600" height="360" rx="16" fill="#022c22"/>
+  <defs>
+    <linearGradient id="p3g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Robot Car Chassis Blueprint -->
+  <rect x="180" y="100" width="240" height="160" rx="24" fill="#064e3b" stroke="#10b981" stroke-width="3" stroke-dasharray="6 4"/>
+  
+  <!-- Wheels -->
+  <rect x="150" y="120" width="25" height="50" rx="6" fill="#1e293b" stroke="#10b981" stroke-width="2"/>
+  <rect x="150" y="190" width="25" height="50" rx="6" fill="#1e293b" stroke="#10b981" stroke-width="2"/>
+  <rect x="425" y="120" width="25" height="50" rx="6" fill="#1e293b" stroke="#10b981" stroke-width="2"/>
+  <rect x="425" y="190" width="25" height="50" rx="6" fill="#1e293b" stroke="#10b981" stroke-width="2"/>
+  
+  <!-- Arduino Microcontroller Board -->
+  <rect x="230" y="125" width="140" height="110" rx="8" fill="#008080" stroke="#5eead4" stroke-width="2"/>
+  <circle cx="245" cy="140" r="3" fill="#fef08a"/>
+  <circle cx="355" cy="140" r="3" fill="#fef08a"/>
+  <circle cx="245" cy="220" r="3" fill="#fef08a"/>
+  <circle cx="355" cy="220" r="3" fill="#fef08a"/>
+  <rect x="270" y="150" width="60" height="60" rx="4" fill="#0f172a" stroke="#38bdf8" stroke-width="1.5"/>
+  <text x="300" y="185" fill="#38bdf8" font-size="10" font-family="monospace" text-anchor="middle">ATmega328</text>
+  
+  <!-- Ultrasonic Sensor (HC-SR04) at Front -->
+  <rect x="260" y="70" width="80" height="26" rx="6" fill="#047857" stroke="#34d399" stroke-width="2"/>
+  <circle cx="280" cy="83" r="8" fill="#c7d2fe" stroke="#312e81" stroke-width="2"/>
+  <circle cx="320" cy="83" r="8" fill="#c7d2fe" stroke="#312e81" stroke-width="2"/>
+  
+  <!-- Ultrasonic Waves radiating forward -->
+  <path d="M260 55 C285 45 315 45 340 55" stroke="#34d399" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.9"/>
+  <path d="M240 38 C280 22 320 22 360 38" stroke="#34d399" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.6"/>
+  <path d="M220 20 C270 0 330 0 380 20" stroke="#34d399" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.3"/>
+  
+  <!-- Telemetry readout labels -->
+  <rect x="30" y="40" width="130" height="65" rx="8" fill="#064e3b" stroke="#10b981" stroke-width="1"/>
+  <text x="40" y="60" fill="#a7f3d0" font-size="10" font-family="monospace">DIST_FRONT: 48cm</text>
+  <text x="40" y="78" fill="#a7f3d0" font-size="10" font-family="monospace">STEER_ANGLE: 0 deg</text>
+  <text x="40" y="95" fill="#10b981" font-size="10" font-family="monospace">STATUS: CLEAR</text>
+  
+  <rect x="440" y="40" width="130" height="65" rx="8" fill="#064e3b" stroke="#10b981" stroke-width="1"/>
+  <text x="450" y="60" fill="#a7f3d0" font-size="10" font-family="monospace">MOTOR_L: PWM 180</text>
+  <text x="450" y="78" fill="#a7f3d0" font-size="10" font-family="monospace">MOTOR_R: PWM 180</text>
+  <text x="450" y="95" fill="#38bdf8" font-size="10" font-family="monospace">AUTONOMOUS C++</text>
+</svg>
